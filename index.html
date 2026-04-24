@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta
+      name="description"
+      content="AZ Café menu – premium coffee, fresh juices, desserts & snacks. Build your selection, view total price, and clear your order."
+    />
+    <meta
+      name="keywords"
+      content="cafe menu, coffee shop, fresh juice, desserts, snacks, AZ Café, order selection, EGP prices"
+    />
+    <meta name="author" content="Abdelkader Mohamed" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      property="og:title"
+      content="AZ Café | Velvet Roast Menu + Selection"
+    />
+    <meta
+      property="og:description"
+      content="Explore our menu, add items to your selection, view total price, and clear your order. Fresh taste every day."
+    />
+    <meta name="theme-color" content="#fff8f5" />
+    <title>AZ Café | Smooth Menu & Selection Builder</title>
+
+    <!-- Preconnect & DNS prefetch -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700&family=Noto+Serif:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="glass-header">
+        <div class="header-content">
+          <div class="brand">
+            <h1>AZ Café</h1>
+            <div class="tagline">Fresh Taste, Every Day</div>
+          </div>
+          <div class="logo-icon"><i class="fas fa-mug-saucer"></i></div>
+        </div>
+        <div id="searchWrapper" class="search-wrapper">
+          <div class="search-box">
+            <i class="fas fa-search"></i
+            ><input
+              type="text"
+              id="searchInput"
+              placeholder="Search menu... (e.g., latte, cake)"
+              autocomplete="off"
+            />
+          </div>
+        </div>
+      </div>
+
+      <main class="menu-section">
+        <div id="dynamicContent" class="menu-grid"></div>
+        <div class="developer-credit">
+          <a href="https://wa.me/201013706142" target="_blank"
+            ><i class="fab fa-whatsapp"></i> developed by Abdelkader Mohamed</a
+          >
+        </div>
+      </main>
+
+      <div class="bottom-nav" id="bottomNav"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
